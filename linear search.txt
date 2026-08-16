@@ -1,0 +1,10 @@
+arr = [10, 20, 10, 30, 10, 20]
+element = 10
+
+count = 0
+
+for x in arr:
+    if x == element:
+        count += 1
+
+print("Frequency:", count)
